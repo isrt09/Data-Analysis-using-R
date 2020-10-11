@@ -49,15 +49,21 @@ gl(2,5,label=c('FRIDAY','SATURDAY'))
 gl(3,4,length = 20)
 
 
+# R as Indexing Object
 
+x <- 1:20
+x
 
+x[5]
+x[5] <- 500
+x
 
+x[10]
+x[10] <-1000
+x
 
-
-
-
-
-
+x <- x[-10]
+x
 
 
 
